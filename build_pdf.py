@@ -54,14 +54,14 @@ def link(u):
 
 
 story = [
-    Paragraph("Class Activity — Session 5: Sentiment Analyzer", title),
+    Paragraph("Class Activity, Session 5: Sentiment Analyzer", title),
     Paragraph("<b>Muhammad Jibran Narejo</b> (B04-0923-000020) &amp; "
               "<b>Sheikh Muhammad Abdullah</b> (B04-0923-000044)", sub),
     Paragraph(f"Program: BSCS · Section: A · Foundations of Generative AI (CS4106) · "
               f"Dr. Azhar Dilshad · {TODAY}", sub),
     Spacer(1, 4),
     Paragraph("1. Live App URL", h),
-    Paragraph(f"Hugging Face Space: {link(SPACE_URL)} — confirmed working (analyzed text live "
+    Paragraph(f"Hugging Face Space: {link(SPACE_URL)} (confirmed working: we analyzed text on it live "
               f"on {TODAY}).", body),
     Paragraph(f"The Space is a free Static Space that embeds the Streamlit Community Cloud app "
               f"{link(STREAMLIT_URL)}, because free HF accounts can no longer create Streamlit/Docker "
